@@ -10,5 +10,5 @@ void main()
 {
 	outColor = texture(texSampler, fragTexCoord);
 	// tilling
-	outColor = texture(texSampler, fragTexCoord * 2.0);
+	outColor = texture(texSampler, fragTexCoord);
 }
